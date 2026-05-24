@@ -44,13 +44,13 @@ The following JSON representation shows the resource type.
 -->
 ``` json
 {
-  "huntingFunctionId": 100,
-  "name": "MyCustomQuery",
-  "path": "Shared",
-  "description": "A custom query that filters device events by severity.",
-  "createdBy": "user@contoso.com",
-  "lastModifiedBy": "user@contoso.com",
-  "lastModifiedDateTime": "2026-04-15T10:30:00Z",
+  "huntingFunctionId": "Integer",
+  "name": "String",
+  "path": "String",
+  "description": "String",
+  "createdBy": "String",
+  "lastModifiedBy": "String",
+  "lastModifiedDateTime": "String (timestamp)",
   "inputParameters": [{"@odata.type": "microsoft.graph.security.huntingSchemaFunctionParameter"}],
   "outputColumns": [{"@odata.type": "microsoft.graph.security.huntingSchemaTableColumn"}]
 }

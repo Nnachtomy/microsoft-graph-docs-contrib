@@ -38,8 +38,8 @@ The following JSON representation shows the resource type.
 -->
 ``` json
 {
-  "name": "SHA1",
-  "cslType": "string",
-  "defaultValue": null
+  "name": "String",
+  "cslType": "String",
+  "defaultValue": "String"
 }
 ```

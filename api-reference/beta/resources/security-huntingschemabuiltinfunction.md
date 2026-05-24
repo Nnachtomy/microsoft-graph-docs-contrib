@@ -41,10 +41,10 @@ The following JSON representation shows the resource type.
 -->
 ``` json
 {
-  "huntingFunctionId": 1,
-  "name": "FileProfile",
-  "path": "Built-in",
-  "documentation": "Enriches query results with file information such as file name, size, and hash.",
+  "huntingFunctionId": "Integer",
+  "name": "String",
+  "path": "String",
+  "documentation": "String",
   "inputParameters": [{"@odata.type": "microsoft.graph.security.huntingSchemaFunctionParameter"}],
   "outputColumns": [{"@odata.type": "microsoft.graph.security.huntingSchemaTableColumn"}]
 }

@@ -38,8 +38,8 @@ The following JSON representation shows the resource type.
 -->
 ``` json
 {
-  "name": "Timestamp",
-  "dataType": "DateTime",
-  "description": "Date and time when the record was generated"
+  "name": "String",
+  "dataType": "String",
+  "description": "String"
 }
 ```

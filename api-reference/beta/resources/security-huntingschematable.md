@@ -38,8 +38,8 @@ The following JSON representation shows the resource type.
 -->
 ``` json
 {
-  "name": "DeviceProcessEvents",
-  "description": "Process creation and related events",
+  "name": "String",
+  "description": "String",
   "columns": [{"@odata.type": "microsoft.graph.security.huntingSchemaTableColumn"}]
 }
 ```
